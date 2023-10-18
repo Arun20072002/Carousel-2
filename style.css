@@ -1,0 +1,28 @@
+*{
+	padding:0;
+	margin:0;
+	box-sizing:border-box;
+}
+#Carousel-section{
+	 background:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url("images/wonder.webp");
+	background-repeat:no-repeat;
+	background-size:cover;
+	height:120vh;
+}
+.Carousel-content h1{
+	color:#c47123;
+}
+.Carousel-content p{
+	color:#f5b67a;
+}
+.carousel-item{
+	height:100vh;
+	
+}
+
+.carousel-indicators [data-bs-target]{
+	width:10px !important;
+	height:10px !important;
+	background-color:#fff !important;
+	border-radius:50%;
+}
